@@ -4,6 +4,6 @@ CREATE TABLE `user_identifiers` (
     `name` VARCHAR(255) NULL,
     `license` VARCHAR(255) NULL,
     `date` DATETIME NOT NULL,
-    'online' TINYINT(1) NOT NULL
+    `online` TINYINT(1) NOT NULL,
     PRIMARY KEY (`id`)
 );
